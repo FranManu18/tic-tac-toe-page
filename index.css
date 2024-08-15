@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  justify-content: center;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: thin solid black;
+  transition: all 0.2s ease-in-out;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cell:hover {
+  background-color: rgb(198, 239, 62);
+}
+
+.restart {
+  margin-top: 30px;
+  width: 100px;
+  height: 60px;
+}
+
+.status {
+  text-align: center;
+  font-size: 19px;
+  font-weight: bold;
+}
